@@ -22,7 +22,7 @@
     font-weight: 300;
     padding: 0 1em;
     position: absolute;
-    bottom: 35px;
+    bottom: 45px;
   }
 
   ul {
