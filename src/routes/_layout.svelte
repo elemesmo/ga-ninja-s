@@ -20,6 +20,8 @@
 </script>
 
 <svelte:head>
+  <meta name="msapplication-TileColor" content="#1a1a1a" />
+  <meta name="theme-color" content="#1a1a1a" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="194x194" href="/favicon-194x194.png" />
@@ -27,8 +29,10 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   <link rel="manifest" href="/site.webmanifest" />
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1a1a1a" />
-  <meta name="msapplication-TileColor" content="#1a1a1a" />
-  <meta name="theme-color" content="#1a1a1a" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400&display=swap"
+    rel="stylesheet" />
 </svelte:head>
 
 <Head {segment} />
@@ -55,6 +59,7 @@
   @media screen and (max-width: 580px) {
     main {
       max-width: 400px;
+      margin: 0 25px;
     }
   }
 </style>

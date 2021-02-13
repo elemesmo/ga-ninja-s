@@ -47,7 +47,6 @@
   @media screen and (max-width: 580px) {
     p {
       font-size: 14px;
-      margin: 0 10px;
     }
   }
 </style>
