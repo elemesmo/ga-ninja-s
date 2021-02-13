@@ -3,7 +3,6 @@
   import IoLogoLinkedin from "svelte-icons/io/IoLogoLinkedin.svelte";
   import IoLogoGithub from "svelte-icons/io/IoLogoGithub.svelte";
   import IoIosMail from "svelte-icons/io/IoIosMail.svelte";
-  import meJpg from "images/me.jpg";
 </script>
 
 <svelte:head>
@@ -11,7 +10,7 @@
 </svelte:head>
 
 <figure>
-  <img src={meJpg} alt="Face of Rafael Garrido" />
+  <img src="./me.jpg" alt="The face of Rafael Garrido" />
 </figure>
 <h1>Rafael Garrido</h1>
 <h2>Full-Stack Developer</h2>
