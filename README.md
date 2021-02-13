@@ -1,6 +1,5 @@
 # Ra NINJA 🐱‍👤
-## Svelte / Sapper 💗
-
+Personal portfolio website. Use with care ;)
 -----------------------------------------
 
-Personal portfolio website. Use with care ;)
+## Svelte / Sapper 💗
