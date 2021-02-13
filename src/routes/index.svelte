@@ -79,6 +79,10 @@
   h1,
   h2 {
     text-align: center;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
   }
   h1 {
     margin-bottom: 5px;

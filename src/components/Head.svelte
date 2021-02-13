@@ -58,8 +58,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2.2em;
-    user-select: none;
     font-weight: 100;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
   }
   .triangle {
     width: 0;

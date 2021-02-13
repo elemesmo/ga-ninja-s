@@ -22,7 +22,11 @@
     font-weight: 300;
     padding: 0 1em;
     position: absolute;
-    bottom: 45px;
+    bottom: 15px;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
   }
 
   ul {
@@ -61,5 +65,11 @@
     text-decoration: none;
     padding: 1em 0.5em;
     display: block;
+  }
+
+  @media screen and (max-width: 580px) {
+    nav {
+    bottom: 55px;
+    }
   }
 </style>

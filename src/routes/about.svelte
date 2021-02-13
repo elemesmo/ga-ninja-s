@@ -18,7 +18,6 @@
   As a differential, acted at the design market and has the capabilities of seeing with a macro perspective the
   conception of web-apps and integration projects.
 </p>
-<br>
 <p class="center">
   <a href="/">Get in contact</a> to know more about me 😊
 </p>
@@ -26,8 +25,13 @@
 <style>
   p {
     line-height: 1.7em;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
   }
   p.center {
+    margin-top: 20px;
     text-align: center;
   }
   a {
