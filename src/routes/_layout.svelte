@@ -14,6 +14,8 @@
       let directions = e.detail.directions;
       if (segment === "about" && directions.right) goto("/");
       if (segment === undefined && directions.left) goto("/about");
+      if (segment === undefined && directions.bottom) goto("/about");
+      if (segment === "about" && directions.top) goto("/");
     });
     return () => listener.off();
   });
