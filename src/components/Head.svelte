@@ -1,7 +1,12 @@
 <script>
   import { fade } from "svelte/transition";
   let romaji = true;
-  setTimeout(() => (romaji = !romaji), 5000);
+  const changeLogoText = () =>
+    setTimeout(() => {
+      romaji = !romaji;
+      changeLogoText();
+    }, 5000);
+  changeLogoText();
   export let segment;
 </script>
 

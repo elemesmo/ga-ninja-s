@@ -5,14 +5,10 @@
 <nav>
   <ul>
     <li>
-      <a aria-current={segment === undefined ? "page" : undefined} href=".">
-        Contact
-      </a>
+      <a aria-current={segment === undefined ? "page" : undefined} href="."> Contact </a>
     </li>
     <li>
-      <a aria-current={segment === "about" ? "page" : undefined} href="about">
-        About
-      </a>
+      <a aria-current={segment === "about" ? "page" : undefined} href="about"> About </a>
     </li>
   </ul>
 </nav>
@@ -68,8 +64,8 @@
   }
 
   @media screen and (max-width: 580px) {
-    nav {
-    bottom: 55px;
-    }
+    /* nav {
+      bottom: 10px;
+    } */
   }
 </style>
